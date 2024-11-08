@@ -1,0 +1,33 @@
+.background{
+    background-color: palevioletred;
+    background-size: cover;
+    border: 5px black solid;
+    flex-wrap: wrap;
+    height: 1500px;
+    width: 1500px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10%;
+    gap: 300px;
+    padding-bottom: 10%;
+    text-align: center;
+}
+.fl{
+    background-color: rgba(230, 200, 141, 0.899);
+    height: 300px;
+    width: 300px;
+    flex-direction: column;
+    overflow: auto;
+
+}
+h1{
+    text-shadow: 3px 3px 3px palevioletred;
+    box-shadow: 0px 3px 15px black;
+    text-align: left;
+}
+img{
+    box-shadow: 1px 5px 5px black;
+}
+p{
+    box-shadow: 0px 3px 12px black;
+}
